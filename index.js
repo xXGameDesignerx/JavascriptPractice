@@ -102,3 +102,26 @@ console.log(listItems);
 listItems.forEach((elements) => {
     elements.style.color = "blue";
 });
+
+ let cornNutOpinionText = document.getElementById("cornNutOpinion");
+ cornNutOpinionText.style.fontWeight = "bold";
+
+let facts = Array.from(document.getElementsByClassName("fact"));
+facts.forEach((fact) => {
+    fact.innerText = "hello";
+});
+
+cornNutOpinionText.addEventListener("click", cornNutFunction);
+
+function cornNutFunction(){
+    cornNutOpinionText.style.fontSize = "10pt";
+}
+
+listItems.forEach(elements) =>{
+    element.addEventListener("mouseover", () => {
+        element.style.color = "white";
+    });
+    element.addEventListener("mouseleave", () => {
+        element.style.color = "blue";
+    });
+};
