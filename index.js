@@ -117,11 +117,11 @@ function cornNutFunction(){
     cornNutOpinionText.style.fontSize = "10pt";
 }
 
-listItems.forEach(elements) =>{
-    element.addEventListener("mouseover", () => {
-        element.style.color = "white";
+listItems.forEach((elements) => {
+    elements.addEventListener("mouseover", () => {
+        elements.style.color = "white";
     });
-    element.addEventListener("mouseleave", () => {
-        element.style.color = "blue";
+    elements.addEventListener("mouseleave", () => {
+        elements.style.color = "blue";
     });
-};
+});
